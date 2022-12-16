@@ -64,13 +64,33 @@
 
 @media(max-width:1200px) {
 
+    .header__img-flower {
+        left: 580px;
+    }
+
+    .header__decor-1 {
+        top: 256px;
+        left: 844px;
+    }
+
+    .header__decor-2 {
+        left: 599px;
+    }
+
+    .header__decor-3 {
+        left: 829px;
+    }
+
+
+
+
     .nav__login {
-        margin-left: 170px;
+        margin-left: 150px;
         gap: 40px;
     }
 
     .nav__list {
-        margin-left: 150px;
+        margin-left: 180px;
     }
 
     .collection__content {
@@ -125,24 +145,26 @@
     }
 
     .product__img-1 {
-        width: 130px;
-        height: 140px;
-        padding: 15px 60px 11px;
+        width: 120px;
+        height: 130px;
+        padding: 10px 50px 17px;
     }
 
     .product__img-2 {
-        width: 110px;
-        height: 140px;
-        padding: 12px 70px 14px;
+        width: 99px;
+        height: 126px;
+        padding: 26px 60px 7px;
     }
+
     .product__img-3 {
-        width: 100px;
-        height: 140px;
-       padding: 12px 70px 14px;
+    width: 87px;
+    height: 135px;
+    padding: 12px 60px 10px;
     }
+
     .product__img-4 {
-        width: 150px;
-        height: 140px;
+        width: 122px;
+        height: 139px;
         padding: 5px 50px 14px;
     }
 
@@ -309,984 +331,324 @@
     .follow-us__card-5:hover .follow-us__btn {
         background-color: rgba(0, 0, 0, 0.636);
         transition: opacity 0.5s;
+    }
 }
     
 
-    
-    /*
-    .about-us__img {
-        position: absolute;
-        top: 35px;
-        left: 70px;
-        width: 406px;
-        height: 400px;
-    }
 
-    .about__img {
-        width: 406px;
-        height: 400px;
-    }
-    
-    .about-us__description {
-        max-width: 400px;
-    }
-    
-    .about-us__title-1 {
-        margin-bottom: 20px;
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 23px;
-        color: var(--active_color);
-    
-    }
-    
-    .about-us__title-2 {
-        margin-bottom: 24px;
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 48px;
-        color: var(--color);
-    }
-    
-    .about-us__text-1 {
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        color: var(--secondary);
-        text-align: justify;
-    }
-    
-    .about-us__text-2 {
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 28px;
-        color:var(--secondary);
-        margin-top: 8px;
-        margin-bottom: 30px;
-        text-align: justify;
-    }
-
-
-        
-    .product__cards {
-        display: flex;
-        gap: 18px;
-    }
-
-    .product__img-1 {
-        width: 130px;
-        height: 143px;
-        padding: 10px 62px 6px;
-    }
-
-    .product__img-2 {
-        width: 110px;
-        height: 140px;
-        padding: 7px 75px 12px;
-    }
-    .product__img-3 {
-        width: 100px;
-        height: 143px;
-       padding: 7px 76px 9px;
-    }
-    .product__img-4 {
-        width: 150px;
-        height: 143px;
-       padding: 0 55px 16px;
-    }
-
-    .card__title {
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight:500;
-        font-size: 20px;
-        line-height: 21px;
-        color: var(--color);
-    }
-
-    .price {
-        margin-bottom: 20px;
-    }
-
-
-    .customers__review {
-        max-width: 550px;
-        max-height: 150px;
-        background-color: var(--active_color);
-        position: absolute;
-        color:#fff;
-    }
-    
-    .customers__review-content {
-        padding: 10px 14px 20px 22px;
-        
-    }
-
-    .review__client-avatar {
-        margin-right: 10px;
-       }
-       
-    .review__client-photo {
-           max-width: 50px;
-           max-height: 50px;
-       }
-       
-       
-    .review__client-desc-name {
-           font-family: 'Nunito';
-           font-style: normal;
-           font-weight: 400;
-           font-size: 16px;
-           line-height: 19px;
-       }
-       
-    .review__client-desc-prof {
-           font-family: 'DM Sans';
-           font-style: normal;
-           font-weight: 300;
-           font-size: 12px;
-           line-height: 16px;
-           color: #d9d9d9;
-       }
-       
-    .customers__decor {
-           margin-left: 300px;
-       }
-       
-    .customers__review-text {
-           font-family: 'DM Sans';
-           font-style: normal;
-           font-weight: 300;
-           font-size: 14px;
-           line-height:20px;
-           color: #ececec;
-       }
-
-       .customers__text {
-        margin-top: 30px;
-        margin-bottom: 30px;
-       }
-
-    .review__btn{
-        display: flex;
-        text-align: center;
-        left: 503px;
-        bottom: 0px;
-        position: absolute;
-    }
-    
-    .nav__list {
-        display: flex;
-        gap: 20px;
-        color: var(--color);
-        font-weight:300;
-        font-size: 16px;
-        line-height: 21px;
-    }
+@media(max-width:1100px) {
 
     .nav__login {
-        display: flex;
-        margin-left: 90px;
+        margin-left: 100px;
         gap: 30px;
     }
 
-    .login__btn {
-        font-weight: 300;
+    .nav__list {
+        margin-left: 150px;
     }
-
-        
-    .follow-us__title {
-        margin-bottom: 12px;
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 45px;
-        color:var(--color);
-    }
-
-    .follow-us__text {
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        color: var(--secondary);
-    }
-
-    .follow-us__description {
-        margin-left: 300px;
-        margin-right: 300px;
-        max-width: 600px;
-        max-height: 200px;
-    }
-
-    .follow-us__img {
-        height: 190px;
-        width: 200px;
-    }
-
-    
-    .follow-us__cards {
-        margin-top: 40px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .inst__btn {
-        width: 60px;
-        height: 60px;
-        padding: 20px 20px;
-        background-color: rgba(0, 0, 0, 0.3);
-        border-radius: 4px;
-
-    }
-    
-    .follow-us__btn {
-        height: 100px;
-        width: 100px;
-        padding-top: 53px;
-        padding-left: 25%;
-        position: absolute;
-        text-align: center;
-        justify-content: center;
-        box-sizing: border-box;
-        background-color: rgba(0, 0, 0, 0.0);
-        opacity: 0;
-    }
-
-        
-    .follow-us__card-1 .follow-us__btn,
-    .follow-us__card-2 .follow-us__btn,
-    .follow-us__card-3 .follow-us__btn,
-    .follow-us__card-4 .follow-us__btn,
-    .follow-us__card-5 .follow-us__btn {
-        opacity: 1;
-    }    
-
-    .footer__title {
-        margin-bottom: 24px;
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 25px;
-        color: var(--color);
-    }
-        
-    .about-us__description {
-        max-width: 530px;
-    }
-    .about-us__content {
-        max-width: 1100px;
-    }
-
-    .footer__nav-active {
-        font-size: 14px;
-    }
-
-}
- */
-
-/* @media(max-width:1000px) { */
-
-        /* Header */
-/* 
-       
-        .header {
-            position: relative;
-            min-width: 950px;
-            min-height: 680px;
-        }
-
-        .header__img-flower {
-            max-width: 417px;
-            max-height: 579px;
-        }
-
-        .header__img {
-            left: 520px;
-            top: 70px;
-        }
-       
-        .header__decor-1 {
-            top: 220px;
-            left: 780px;
-        }
-    
-        .header__decor-2 {
-            top:300px;
-            left: 550px;
-        }
-    
-        .header__decor-3 {
-            top: 500px;
-            left: 730px;
-        }
-
-        .logo {
-            margin-right: 180px;
-        }
-
-            
-        .header__title {
-            font-size: 65px;
-            font-weight: 700;
-            line-height: 85px;
-        }
-
-        .nav__login {
-            display: flex;
-            margin-left: 130px;
-            gap: 30px;
-        }
-
-        /* Collection */
-/* 
-        .collection {
-            margin-top: 40px; 
-        }
-        .collection__content {
-            gap: 80px;
-        }
-
-        .collection__title {
-            max-width: 300px;
-            font-weight: 700;
-            font-size: 25px;
-            line-height: 45px
-        }
-
-
-        .collection__img {
-            max-width: 128px;
-            max-height: 128px;
-            padding: 15px 21px;
-        }
-
-        /* About-us */
-
-
-         /*         
-        .rectangle {
-            width: 406px;
-            height: 400px;
-            background: var(--active_color);
-        }
-
-        .about-us__img {
-            position: absolute;
-            top: 40px;
-            left: 70px;
-            width: 406px;
-            height: 400px;
-        }
-
-        .about-us__content {
-            gap: 110px;
-            max-width: 1000px;
-        }
-
-        .about-us {
-            margin-top: 100px;
-            align-items: center;
-        }
-
-                
-        .about-us__description {
-            max-width: 400px;
-        }
-
-        .about-us__title-1 {
-            margin-bottom: 15px;
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 19px;
-            color: var(--active_color);
-
-        }
-
-        .about-us__title-2 {
-            margin-bottom: 15px;
-            font-family: 'Nunito';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 45px;
-            color: var(--color);
-        }
-
-        .about-us__text-1 {
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 21px;
-            color: var(--secondary);
-            text-align: justify;
-        }
-
-        .about-us__text-2 {
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 21px;
-            color:var(--secondary);
-            margin-top: 12px;
-            margin-bottom: 36px;
-            text-align: justify;
-        }
-
-        */
-
-        /* Best products */
-/* 
-        .product__content {
-            margin-top: 110px;
-            align-items: center;
-        }
-
-        .product__content-title {
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 45px
-        }
-
-        .product {
-            margin-top: 100px;  
-        }
-    
-        .product__img-1 {
-            width: 110px;
-            height: 123px;
-            padding: 5px 57px 1px;
-        }
-    
-        .product__img-2 {
-            width: 90px;
-            height: 120px;
-            padding: 2px 70px 7px;
-        }
-        .product__img-3 {
-            width: 90px;
-            height: 123px;
-           padding: 2px 71px 4px;
-        }
-        .product__img-4 {
-            width: 130px;
-            height: 123px;
-           padding: 0 50px 11px;
-        }
-        .price {
-            margin-bottom: 15px;
-        }
-
-        .customers__row {
-            margin-top: 110px;
-           }
-
-                
-        .customers__title {
-            margin-bottom: 12px;
-            font-family: 'Nunito';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 45px;
-            color: var(--color);
-        }
-
-        .customers__content {
-            max-width: 400px;
-            max-height: 170px;
-        }
-
-        .customers__text {
-            margin-bottom: 20px;
-            margin-top: 20px;
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 25px;
-            color: var(--secondary);
-        }
-
-        .customers__review {
-            max-width: 550px;
-            max-height: 164px;
-            background-color: var(--active_color);
-            position: absolute;
-            color:#fff;
-        }
-
-        .customers__review-content {
-            padding: 15px 19px 25px 27px;
-        }
-
-        .customers-img {
-            margin-left: 0;
-        }
-
-        .customers__img-right {
-            height: 380px;
-            width: 552px;
-            margin-left: -40px;
-        }
-
-        .customers__decor {
-            margin-left: 280px;
-        }
- 
-        /* subscribe */ /* 
-        .subscribe__content {
-            margin-top: 110px;
-            gap: 145px;
-        }
-
-        .subscribe__title {
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 45px
-        }
-
-        /* Fullow-us *//*
-
-        .follow-us__description {
-            text-align: center;
-            max-width: 500px;
-            max-height: 150px;
-        }
-
-        .follow-us__title {
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 45px
-        }
-
-        .follow-us__text {
-            font-size: 16px;
-            line-height: 25px;
-        }
-
-        .follow-us__img {
-            height: 180px;
-            width: 190px;
-        }
-
-        .footer_nav {
-            min-width: 100px;
-        }
-        .footer__title {
-            font-size: 20px;
-            line-height: 21px;
-        }
-    
- } */
-/*
-
-@media(max-width:950px) {
-
-    .slider {
-        max-width: 525px;
-    }
-
-    .subscribe__content {
-        margin-top: 110px;
-        gap: 100px;
-    }
-
-    .product__content {
-        justify-content: center;
-    }
-
-    .product__cards {
-        justify-content: center;
-    }
-
-    .product__img-1 {
-        width: 90px;
-        height: 103px;
-        padding: 5px 47px 1px;
-    }
-
-    .product__img-2 {
-        width: 70px;
-        height: 100px;
-        padding: 2px 60px 7px;
-    }
-    .product__img-3 {
-        width: 70px;
-        height: 103px;
-       padding: 2px 61px 4px;
-    }
-    .product__img-4 {
-        width: 110px;
-        height: 103px;
-       padding: 0 40px 6px;
-    }
-
-    .follow-us__img {
-        height: 180px;
-        width: 190px;
-    }
-
-    .follow-us__cards {
-        justify-content: center;
-    }
-
-    .follow-us__card-1 {
-        display: none;
-    }
-
-    .follow-us__description {
-        max-width: 500px;
-        max-height: 150px;
-        margin-right: 0;
-        margin-left: 225px;
-    }
-
-    .footer__menu ul li:not(:last-child) {
-        margin-bottom: 7px;
-    }
-
-    .footer__icon-img {
-        margin-right: 6px;
-    }
-
-    .footer__icon-img {
-        height: 38px;
-        width: 38px;
-    }
-
-
-} 
-
-
- @media(max-width:851px) { */
-    /* Header */
-/* 
-    .header {
-        min-width: 850px;
-        min-height: 593px;
-    }
-
-    .logo {
-        margin-right: 100px;
-    }
-
 
     .header__title {
         font-size: 50px;
-        font-weight: 600;
         line-height: 70px;
-        max-width: 500px;
+        max-width: 450px;
     }
 
-    .header__img {
-        left: 500px;
-        top: 80px;
+    .header__text {
+        margin-top: 20px;
+        margin-bottom: 38px;
+        width: 440px;
     }
+
 
     .header__img-flower {
-        max-width: 390px;
-        max-height: 462px;
+        left: 528px;
+        height: 570px;
+        width: 440px;
     }
 
+    .header__decor-1 {
+        top: 224px;
+        left: 750px;
+    }
+
+    .header__decor-2 {
+        top: 296px;
+        left: 545px;
+    }
+
+    .header__decor-3 {
+        top: 550px;
+        left: 750px;
+    }
+    
+    .footer__content {
+       justify-content: space-between;
+        gap: 80px;
+    }
+    
     .header__info {
-        margin-top: 48px;
-        display: flex;
-        gap: 86px;
+        gap: 80px;
+    
+    }
+
+    .header {
+       min-height: 760px;
+    }
+
+    .rectangle {
+        width: 380px;
+        height: 374px;
+    }
+
+    .about__img {
+        width: 380px;
+        height: 374px;
+    }
+
+    .about-us__title-2 {
+        margin-bottom: 10px;
         font-size: 30px;
         line-height: 40px;
     }
 
-        
-    .header__decor-1,
-    .header__decor-2,
-    .header__decor-3 {
-        display: none;
-    }
-
-    .collection__img {
-        max-width: 128px;
-        max-height: 128px;
-        padding: 13px 19px;
-    }
-
-    .collection__content {
-        gap: 65px;
-    }
-
-    .collection__title {
-        max-width: 300px;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 30px
-    }
-
-    .collection__carousel {
-        margin-top: 20px;
-    }
-
-
-    .about-us__content {
-        max-width: 850px;
-        gap: 110px;
-    }
-            
-    .rectangle {
-        width: 366px;
-        height: 360px;
-        background: var(--active_color);
-    }
-
-    .about-us__img {
-        position: absolute;
-        top: 30px;
-        left: 50px;
-    }
-
-    .about__img{
-        width: 366px;
-        height: 360px;
-    }
-
-    .about-us {
-        margin-top: 100px;
-        align-items: center;
-    }
-
-
-    .about-us__title-1 {
-        margin-bottom: 15px;
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        color: var(--active_color);
-
-    }
-
-    .about-us__title-2 {
-        margin-bottom: 15px;
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 30px;
-        color: var(--color);
-    }
-
     .about-us__text-1 {
-        font-weight:200;
         font-size: 16px;
-        line-height: 19px;
-        color: var(--secondary);
-        text-align: justify;
+        line-height: 20px;
     }
 
     .about-us__text-2 {
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 100;
         font-size: 16px;
-        line-height: 19px;
-        color:var(--secondary);
-        margin-top: 10px;
-        margin-bottom: 36px;
-        text-align: justify;
+        line-height: 21px;
+        margin-top: 8px;
+        margin-bottom: 28px;
     }
 
-    .product__content {
-        margin-top: 110px;
-        align-items: center;
+    .about-us__description {
+        max-width: 420px;
+    }
+
+    .about-us__content {
+        gap: 0px;
+    }
+
+    .product__cards {
+        gap: 21px;
+    }
+}
+
+
+@media(max-width:1000px) {
+    .nav__login {
+        margin-left: 74px;
+        gap: 24px;
+    }
+
+    .nav__list {
+        margin-left: 60px
+    }
+
+    .nav__list {
+        gap: 40px;
+    }
+
+    .header__img-flower {
+        left: 506px;
+        height: 540px;
+        width: 410px;
+        top: 45px;
+    }
+
+    .header__decor-1 {
+        top: 174px;
+        left: 655px;
+    }
+
+    .header__decor-2 {
+        top: 268px;
+        left: 491px;
+    }
+
+    .header__decor-3 {
+        top: 474px;
+        left: 708px;
+    }
+
+    .header {
+        min-height: 650px;
+    }
+
+    .collection__title {
+        max-width: 344px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .collection__carousel {
+        margin-top: 15px;
+    }
+
+    .collection__img {
+        max-width: 130px;
+        max-height: 130px;
+    }
+
+    .about-us {
+        margin-top: 85px;
+    }
+
+    .product__list {
+        gap: 36px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     .product__content-title {
-        font-weight: 700;
         font-size: 30px;
-        line-height: 30px;
+        line-height: 40px;
+    }
+
+    .product__img-1 {
+        width: 100px;
+        height: 110px;
+    }
+
+    .product__img-2 {
+        width: 85px;
+        height: 109px;
+        padding: 18px 56px 16px;
+    }
+
+    .product__img-3 {
+        width: 79px;
+        height: 122px;
+    }
+
+    .product__img-4 {
+        width: 105px;
+        height: 125px;
+        padding: 5px 44px 14px;
+    }
+
+    .card__title {
+        font-size: 23px;
+        line-height: 21px;
+    }
+
+    .product__btn {
+        margin-top: 35px;
     }
 
     .price {
         margin-bottom: 10px;
     }
 
-    .product__btn {
-        margin-top: 39px;
+    .customers__row {
+        margin-top: 89px;
     }
 
-    
-            
     .customers__title {
-        font-weight: 700;
+        margin-bottom: 12px;
         font-size: 30px;
-        line-height: 30px;
-    }
-
-    .customers__content {
-        max-width: 320px;
-        max-height: 170px;
+        line-height: 40px;
     }
 
     .customers__text {
         margin-bottom: 20px;
         margin-top: 15px;
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 20px;
-        color: var(--secondary);
-    }
-
-    .customers__review {
-        max-width: 500px;
-        max-height: 164px;
-        background-color: var(--active_color);
-        position: absolute;
-        color:#fff;
-    }
-
-    .customers__review-content {
-        padding: 15px 19px 25px 27px;
+        font-size: 16px;
+        line-height: 23px;
     }
 
     .customers__img-right {
         height: 340px;
-        width: 482px;
-        margin-left: -39px;
+        width: 470px;
     }
 
-    .review__btn{
-        left: 452px;
-        bottom: 0px;
-        position: absolute;
+    .subscribe__content {
+        margin-top: 102px;
+        gap: 38px;
     }
 
-   .review__client-desc-name {
-    min-width: 200px;
-    }
-
-
-    .subscribe__title {
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 30px;
-    }
-
-    .subscribe__text {
-        margin-bottom: 25px;
-        font-family: 'DM Sans';
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 21px;
-    }
-
-    .subscribe__form {
-        display: flex;
-        gap: 54px;
-        padding: 6px 6px 6px 20px;
-        background-color: #fff;
-        max-width: 313px;
-        max-height: 56px;
-        align-items: center;
-    }
-
-    .subscribe__description {
-        min-width: 342px;
-        max-height: 200px;
-        margin: 37px 0 60px 60px;
-    }
-
-
-
-    .follow-us__content {
-        max-width: 850px;
-    }
-
-
-    .follow-us__cards {
-        justify-content: center;
-    }
 
     .follow-us__title {
-        font-weight: 700;
         font-size: 30px;
-        line-height: 30px;
+        line-height: 40px;
+    }
+
+    .follow-us__content {
+        margin-top: 106px;
     }
 
     .follow-us__text {
-        font-weight: 300;
         font-size: 16px;
-        line-height: 21px;
+        line-height: 23px;
     }
 
-    .follow-us__description {
-        margin-right: 125px;
-        margin-left: 125px;
+    .follow-us__btn {
+        height: 170px;
+        width: 159px;
     }
 
-    .follow-us__card-1 {
-        display: none;
-    }
-
-
-    .footer__row {
-        margin-top: 90px;
-        margin-bottom: 80px;
+    .follow-us__img {
+        height: 170px;
+        width: 160px;
     }
 
     .footer__content {
-        display: flex;
-        gap: 85px;
+        gap:0;
     }
 
-    .footer__text {
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 21px;
+    .footer__row {
+        margin-bottom: 30px;
     }
-
-    
 }
 
-@media (max-width: 760px){
-    .about-us__content {
-        max-width: 850px;
-        gap: 90px;
+@media(max-width:900px) {
+
+    .decor-text {
+        padding: 11px 3px;
+    }
+
+    .collection__img {
+        max-width: 129px;
+        max-height: 140px;
+    }
+
+    .collection__img {
+        max-width: 120px;
+        max-height: 120px;
+        flex-direction: column;
+        padding: 10px 17px;
     }
 
     .rectangle {
-        width: 320px;
-        height: 314px;
-        background: var(--active_color);
+        width: 350px;
+        height: 344px;
     }
 
-    .about-us__img {
-        width: 320px;
-        height: 314px;
+    .about__img {
+        width: 350px;
+        height: 344px;
     }
 
-    .about__img{
-        width: 320px;
-        height: 314px;
+    .about-us__title-1 {
+        margin-bottom: 0;
     }
+
+    .about-us__text-1 {
+        font-size: 14px;
+    }
+
+    .about-us__description {
+        max-width: 360px;
+    }
+
+    .product__content {
+        margin-top: 10px;
+    }
+
+    
+
+
 
 }
-
- */
