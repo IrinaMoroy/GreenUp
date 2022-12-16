@@ -24,6 +24,10 @@ owl.owlCarousel(
 
 
 
-$('.collection__arrow-btn').click(function() {
-    owl.trigger('next.owl.carousel');
-})
+(function () {
+    var toggle = document.querySelector('.nav-toggle');
+    
+    toggle.addEventListener('click', function() {
+      this.classList.toggle('opened');
+    });
+  })();
