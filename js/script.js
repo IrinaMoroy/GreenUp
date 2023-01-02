@@ -31,3 +31,4 @@ owl.owlCarousel(
       this.classList.toggle('opened');
     });
   })();
+  
